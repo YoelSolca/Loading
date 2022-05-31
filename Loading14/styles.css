@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    background: #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loading1 {
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    border: 10px solid #3a7d7ca5;
+    border-top: 10px solid #12FFF7;
+    border-radius: 50%;
+    animation: loading1 2s infinite linear;
+}
+
+@keyframes loading1 {
+    to {
+        transform: rotate(360deg);
+    }
+}
